@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alemi Document</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+            .button {
+              background-color: rgb(76, 76, 175);
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+            </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Alemi Sights
+            <img class="nav-ufo" src="images/ufo.svg">
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero text-center">
+      <h1>Piruz Alemi</h1>
+      <h2>UFO Sightings</h2>
+      <p>The Revolution Will not be Televised</p>
+    </div>
+
+
+  <div class="container">
+        <!--  Filtering Button  includes a button + Input-field  -->
+        <div>
+            <div class="panel-heading">Search by date</div>
+                <button class=button id="click1">Click Me!</button>
+                <input id="input-field" type="text">
+            </div>
+                <!------------------------------->
+                    <div class="giphy-me"></div> 
+                  
+                <div class="row">
+                   <div class="col-md-12">
+                        <table class="ufo table">
+                            <thead>
+                            <h3></h3>
+                            <ul class="summary">
+                                <tr>
+                                <th>Date</th>
+                                <th>City</th>
+                                <th>State</th>
+                                <th>Country</th>
+                                <th>Shape</th>
+                                <th>DurationMinutes</th>
+                                <th>Comments</th>
+                                </tr>
+                            </ul>
+                            </thead>  
+                
+                            <tbody>  
+                                          
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+            <ul class="output"></ul>         
+         <!--   <div class="col-md-12"> -->
+         <!--   </div> -->
+            <ul>
+                <li>JavaScript - D3 - HTML - CSS written by Piruz Alemi</li>
+                <li>Feb 9, 2020</li>
+                <li>@Columbia University B.C.</li>
+            </ul>
+              
+        </div>
+    </div>
+</body>
+
+<script src="data.js"></script>
+
+    <!--
+    <script src="D3eventListen.js"></script>
+    -->
+
+    <!--
+    <script src="D3grabInput.js"></script>
+   -->
+
+    <!--
+    <script src="D3selButton.js"></script>
+    -->
+
+<script src="D3DynamicTable.js"></script>
+
+</html>
+
