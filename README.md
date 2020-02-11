@@ -1,5 +1,6 @@
 ### A brief Note on Piruz Alemi Respository of JavaScript D3
-####See: Dynamic Table 2 HTML for the final result
+#### See: Dynamic Table 2 HTML for the final result
+
 Piruz Alemi
 Report on D3, JavaScript, HTML – CSS 
 Date: Feb 10, 2020
